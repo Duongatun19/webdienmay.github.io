@@ -1,0 +1,170 @@
+.bottom{
+
+    width: 1920px;
+ 
+    line-height: 40px;
+    color: rgb(80, 70, 70);
+
+    margin: 0 auto;
+    z-index: 100000000px;
+
+    
+}
+
+.icon{
+    position: absolute;
+    width: 100%;
+    bottom: 110px;
+   
+}
+.tuanimg:hover{
+    animation: none;
+}
+ .tuanimg{
+ 
+    border-radius: 100px;
+    animation: 15s xoay ease-in-out infinite;
+}
+@keyframes xoay {
+    0% {
+        transform: rotate(90deg);
+    }
+    25% {
+        transform: rotate(180deg);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+    75% {
+        transform: rotate(180deg);      
+    }
+    100% {
+        transform: rotate(90deg);
+    }}
+    
+
+
+.title_bt{
+    position: absolute;
+    bottom: 72px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+.nd_bt{
+width: 100%;
+text-align: center;
+position: absolute;
+bottom: 30px;
+    font-size: 20px;
+}
+.bottom{
+ 
+max-width: 1920px;
+margin: 0 auto;
+z-index: 1000000;
+position: absolute !important;
+
+}
+.layuot_tt{
+
+display: flex;
+width:100%;
+
+
+position: relative;
+padding-bottom: 20px;
+line-height: 1.5;
+
+
+
+}
+.item_tt{
+
+width: 25%;
+text-align: center;
+
+min-height: 250px;
+
+cursor: pointer;
+position:relative;
+margin-right: 30px;
+
+
+/* border-right: 1px solid black; */
+
+transition: 0.5s; 
+z-index: 10000;
+color: rgb(66 48 48);
+}
+
+.item_tt1 img{
+    border: 2px white solid;
+   
+}
+.anhbottom img{
+    width: 90px;
+    height: 90px;
+}
+.hr
+{
+    height: 2px;
+	background: linear-gradient(
+		212deg, #EE7752, #E73C7E, #157da3, #18ac89, rgb(8, 156, 20));
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: change 10s ease-in-out infinite;
+	background-size: 400% 400%;
+    padding-left: 20px;
+    
+	
+}
+
+@keyframes tuan
+{
+0%{
+    border-radius:100% 0% 70% 30% / 100% 88% 12% 0%  ;
+background-position: 0 50%;
+
+
+}
+
+50% {
+    border-radius: 59% 41% 70% 30% / 69% 100% 0% 31% ;
+    background-position: 100% 50%;
+
+
+}
+75%{
+    border-radius: 78% 22% 70% 30% / 100% 100% 0% 0% ;
+
+
+ 
+}
+100% {
+    border-radius:93% 7% 70% 30% / 100% 88% 12% 0%  ;
+    background-position: 0 50%;
+
+
+}
+}
+.item_tt1{
+    
+    width: 25%;
+    text-align: center;
+    min-height: 250px;
+    background: linear-gradient(212deg, #EE7752, #E73C7E, #157da3, #18ac89, rgb(8, 156, 20));
+            animation: tuan 8s ease-in-out infinite ;
+            background-size: 400% 400%;
+            cursor: pointer;
+    position:relative;
+    margin-right: 30px;
+    border-radius: 68% 32% 69% 31% / 100% 100% 0% 0% ;
+    
+    /* border-right: 1px solid black; */
+    transition: 0.5s; 
+    z-index: 10000;
+    color: beige;
+}

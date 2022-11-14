@@ -1,0 +1,111 @@
+
+
+    .top{
+        background-color: black;
+        color:burlywood;
+        width: 100%;
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+        padding-left: 30px;
+        z-index: 9999999999;
+        position: sticky !important;
+        top:97px;
+    }
+    body{
+    
+    
+        background-color:cornsilk;
+        user-select: none;
+    }
+    .col-3{
+width: 25%;
+    height: 100%;
+   position: absolute;
+  bottom: 0px;
+   background-color:burlywood;
+   cursor: pointer;
+   border-right: 1px solid bisque;
+
+}
+.col-9{
+    width: 77%;
+    height: 100%;
+    position: absolute;
+    background-color:burlywood;
+    right: 0px;
+}
+div {
+    display: block;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+  
+
+}
+.container {
+width: 100%;
+    height: 100000px;
+
+position: relative;
+    display: block;
+    left: 0px;
+
+    
+}
+.top_col3{
+    width: 100%;
+    background-color:gainsboro;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+  position:sticky !important;
+   top: 170px;
+text-align: center;
+}
+.top_col9{
+    background-color:gainsboro;
+    width: 100%;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+  position:sticky !important;
+   top: 170px;
+
+}
+.nd{
+    font-family:'Courier New', Courier, monospace;
+    padding-top:20px;
+    position: sticky !important;
+    top:200px;
+   }
+   .mota{
+       height: 150px;
+
+   }
+   button{
+       border-radius: 7px;
+   }
+   button:hover{
+    
+       background-color: black;
+       color: blanchedalmond;
+
+   }
+
+   table{
+       border: 2px solid bisque;
+     
+   }
+   th,td{
+
+       border-right: 2px solid   bisque;
+       text-overflow: ellipsis;
+
+   }
+   tr{
+       border-bottom: 2px solid bisque ;
+   }
+   .danhsach{padding-top: 55px;}
+ 
+
+  

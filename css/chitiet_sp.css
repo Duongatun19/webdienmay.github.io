@@ -1,0 +1,473 @@
+.img_ct{
+  width: 320px;
+  height: 565px;
+  float: left;
+  padding-top: 20px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+
+
+
+}
+.mota_ct{
+  position: absolute;
+  text-indent:300px;
+
+
+
+   font-size: 25px;
+  
+
+}
+
+.img_ct img{
+    border-radius: 15px;
+
+    float: left;
+    background-color: rgb(253, 253, 253);
+ 
+}
+.ndct{
+  position: absolute;
+bottom: 50px;
+width: 310px;
+height: 40px;
+padding-top: 10px;
+text-align: center;
+}
+.themvaogio{
+  width: 90px;
+  height: 40px;
+  position: absolute;
+  bottom: 20px;
+  background-color: rgb(197, 68, 68);
+  border-radius: 8px;
+  text-align: center;
+  line-height: 40px;
+ 
+  left:20%; 
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+.themvaogio:hover{
+  background-color: red;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.soluong{
+  position: absolute;
+  bottom: 20px;
+  left: 5%;
+}
+.pheptinh{
+  width: 30px;
+  border-radius: 2px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.pheptinh:hover{
+  background-color:lightblue;
+  transform: scale(1.001);
+}
+.gia{
+  font-size: 25px;
+width: 100%;
+  position: absolute;
+bottom: 50px;
+ 
+  padding-left: 25px;
+  
+}
+.ten{
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 25px;
+  margin-bottom: 15px;
+}
+li{
+  list-style: none;
+}
+.khung{
+  display: block;
+  
+  width: 1200px;
+  margin: 0 auto;
+
+
+}
+.khung1{
+display: flex;
+flex-wrap: wrap;
+margin-right: -15px;
+position: relative;
+}
+.khung1::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.item_cl{
+width: 12%;
+text-align: center;
+display: flex;
+flex-direction: column;
+min-height: 180px;
+background-color: rgb(255,255,255);
+cursor: pointer;
+position: relative;
+border-radius: 20px;
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+margin-bottom: 30px;
+margin-left: 15px;
+transition: 0.5s; 
+z-index: 10000;
+}
+.item_cl:hover{
+transform: scale(1.1);
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+}
+form{
+  user-select: none;
+    
+}
+*{
+box-sizing: border-box;
+}
+[class*='khung']{
+padding: 10px;
+}
+.img_cl{
+  padding-top: 10px;
+}
+.gia_cl{
+  width: 100%;
+  position: absolute;
+height: 25px;
+background-color: rgb(255,255,255);
+ bottom: 25px;
+ line-height: 20px;
+ color: red;
+ font-size: 13px;
+}
+.name_cl{
+  font-size: 14px;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
+
+.xx{
+    padding-left: 260px;
+}
+.xx h1::after{
+    content: "";
+    background-color: red;
+    width: 200px;
+    height: 2px;
+    position: absolute;
+    bottom: -20px;
+    left:54%;
+  
+
+}
+
+    .center{
+        width: 800px;
+    
+        margin: 0 auto;
+       
+    }
+    .congtru{
+     width: 100%;
+      height: 50px;
+      position: absolute;
+
+bottom: 25px;
+    
+    
+     
+    }
+.congtru input{
+
+  height: 35px;
+  text-align: center;
+  float: left;
+  border: none;
+
+
+  background-color: rgb(223, 223, 223); 
+  transition: 0.25s ease;
+
+  
+}
+
+input:focus{
+  background-color: rgb(206, 209, 209);
+
+}
+.congtru:focus{
+  background-color: blueviolet;
+
+}
+
+
+#cong:active{
+  background-color: rgb(0, 255, 0);
+
+}
+#tru:active{
+  background-color: rgb(255, 60, 0);
+
+}
+.aaa{
+
+ position: relative;
+
+
+
+}
+.canle{
+  text-align: justify;
+  text-indent: 40px;
+  font-size: 19px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight:400;
+  line-height: 40px;
+}
+.aaad input{
+  
+  background-color: rgb(189, 28, 28);
+  border-radius: 7px;
+  color: antiquewhite;
+  transition: 0.5s;
+}
+.aaad input:hover{
+ transform: scale(1.1);
+ background-color: red;
+ border:1px solid rgb(189, 28, 28);
+}
+.bb{
+
+
+  position: absolute;
+  right: 65px;
+
+}
+.sol{
+  position: absolute;
+  left: 65px;
+
+
+
+
+}
+
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+background-color: rgb(112, 26, 26);
+    margin: 0;
+    padding: 0;
+    padding-right: 15px;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 15px;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+/* các phần tử trong slide */
+.slick-slide
+{
+    display: none;
+    float: left;
+width: 100px;
+    height: 100%;
+    min-height: 1px;
+    padding: 5px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+
+
+
+/* _________________________________________________________________________ */
+/* __________nut sang trai phai_________________________________________________________________ */
+/* -------------------------------------------------------------------------------------- */
+.slick-loading .slick-list
+{
+  background:#fff url(ajax-loader.gif) center center no-repeat;
+}
+@font-face{
+  font-family:slick;
+  font-weight:400;
+  font-style:normal;
+  src:url(fonts/slick.eot);
+  src:url(fonts/slick.eot?#iefix) format('embedded-opentype'),url(fonts/slick.woff) format('woff'),url(fonts/slick.ttf) format('truetype'),url(fonts/slick.svg#slick) format('svg')
+}
+.slick-next,.slick-prev{
+  font-size:0;
+  line-height:0;
+  position:absolute;
+  top:44%;
+  display:block;
+  width:50px;
+  height:50px;
+  padding:0;
+  -webkit-transform:translate(0,-50%);
+  -ms-transform:translate(0,-50%);
+  transform:translate(0,-50%);
+  cursor:pointer;
+ 
+
+}
+
+.slick-next:focus,.slick-next:hover,.slick-prev:focus,.slick-prev:hover{
+  color:transparent;
+  outline:0;
+  background:0 0;
+
+}
+.slick-next:focus:before,.slick-next:hover:before,.slick-prev:focus:before,.slick-prev:hover:before{
+  opacity:1;
+}
+.slick-next.slick-disabled:before,.slick-prev.slick-disabled:before{
+  opacity:.25;
+}
+.slick-next:before,.slick-prev:before{
+
+font-family:'Courier New', Courier, monospace;
+font-weight: bold;
+font-size:40px;
+line-height:1;
+opacity:.75;
+color:rgb(255, 0, 0);
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+}
+.slick-prev{
+  left:-45px;
+}
+[dir=rtl] 
+
+.slick-prev{
+right:45px;
+left:auto;
+}
+.slick-prev:before{
+content:'<';
+
+
+}
+[dir=rtl]
+.slick-prev:before{
+content:'>'
+}
+.slick-next{
+  right:-45px;}
+  [dir=rtl] 
+  .slick-next{
+    right:auto;
+    right:-45px;}
+  .slick-next:before{
+    content:'>'
+  }
+  [dir=rtl]
+.slick-next:before{
+content:'<'
+}
+
+

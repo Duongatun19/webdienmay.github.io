@@ -1,0 +1,378 @@
+@media  screen and (max-width:1200px) {
+   body{
+      width: 414px;
+      background-color: black;
+     
+   }
+     .sign{
+      width: 414px;
+   }
+   .row{
+      width: 414px;
+   }
+   .container{
+      width: 414px;
+   }
+  .bottom{
+     width: 414px;
+     height: 150px;
+  }
+  .layuot_tt{
+     height: 150px;
+  }
+  main{
+   width: 414px;
+  }
+  .sign td{
+     font-size: 13px;
+     color: rgb(11, 247, 137);
+  }
+   #mainmenu{
+      display: flex;
+  flex-direction: column;
+      z-index: 10000;
+      width: auto;
+      background-color: black;
+      color: aliceblue;
+      z-index: 2;
+      left: 0px;
+   }
+   #mainmenu li a{
+     display: block;
+     color: lightcyan;
+     text-decoration: none;
+     padding: 10px;
+     font-size: 13px;
+   }
+   .hienthi{
+      display: flex;
+   
+      padding-top: 70px;
+   }
+   .hiden{
+      display: none;
+   }
+   .sub-mainmenu{
+      left:84px;
+      top:3px;
+   }
+   #mainmenu li a:hover{
+      color: orangered;
+   }
+   
+   .logo{
+       display:none;
+   }
+   .slide-wrapper{
+      display: none;
+   }
+   .menu{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: 414px;
+   }
+   .logodm{
+     position: absolute;
+      display:none;
+      width: 80px;
+      height: 80px;
+    right: 0px;
+   }
+  
+   .tk{
+      position: absolute;
+      padding-right: 300px;
+   }
+   .tk .timkiem{
+     width: 43px;
+     height: 35px;
+     position: absolute;
+    left: 50px;
+  }
+  .tk:hover >.search_txt{
+     width: 240px;
+     border: 1px bisque solid;
+    
+      
+   }
+  .search_txt{
+     left: 50px;
+    
+  }
+   
+   .khoangcach{
+    
+      width: auto;
+      color: aliceblue;
+      position: absolute;
+      left: 0px;
+      z-index: 2;
+   }
+   .giohang{
+      position: absolute;
+      right: 250px;
+      z-index: 1;
+   }
+  #slideshow{
+     display: none;
+  }
+  .box_menu{
+     display: none;
+  }
+  .col-9{
+     width: 414px;
+  }
+  .col-4{
+     width: 199px;
+  
+  }
+  [class*='col'] {
+     padding: 7px;
+  }
+  .hinhanh img{height: 185px;}
+  .hinhanh{
+     margin-top: 10px;
+  }
+  .overlay{
+     display: none;
+  }
+  .nut_ho{
+     position: relative;
+     background-color: none;
+     display: flex;
+     margin-top: 240px;
+   
+  
+  }
+  .nut_home1{
+     position: absolute;
+     width: 20%;
+  }
+  .nut_home{
+     position: absolute;
+     width: 20%;
+     right: 65px;
+  }
+  .nut_home input{
+     border: none;
+     outline: none;
+     background-color: red;
+     height:30px ;
+  }
+  
+  .ten {
+     position: absolute;
+     bottom: 80px;
+     line-height: 15px;
+  }
+  .gia{
+     position: absolute;
+     bottom: 50px;
+  }
+  .item-product{
+     min-height: 330px;
+  }
+  .item_tt{
+     margin-right: 7px;
+   color: wheat;
+   min-height: 100px;
+  }
+  .item_tt img{
+     display: none;
+  }
+  .title_bt {
+     position: absolute;
+     top:10px;
+     font-size: 15px;
+     font-weight: bold;
+     width: 100%;
+     text-align: center;
+     height: auto;
+  }
+  .nd_bt {
+   
+     width: 100%;
+     position: absolute;
+     bottom: 50px;
+     font-size: 10px;
+     word-break: break-all;
+  }
+  .nd_btt{
+   
+     width: 100%;
+     position: absolute;
+     bottom: 50px;
+     font-size: 10px;
+     word-break: break-all;
+  }
+  .anhbottom img{
+     width: 30px;
+     height: 30px;
+   
+    
+  }
+  .anhbottom{
+  position: absolute;
+  top:35px;
+  }
+  .item_tt1{
+     min-height: 100px;
+     margin-right: 0px;
+  }
+  .dautrang img{
+     width: 40px;
+  }
+  .boloc{
+  height: 90px;
+  background-color: black;
+  color: yellow;
+  }
+  .boloc h2{
+     font-size: 20px;
+     font-family: 'Courier New', Courier, monospace;
+  }
+  .boloc h2::after {
+     content: "";
+     display: block;
+     width: 120px;
+     height: 5px;
+     background-color: rgb(255, 115, 0);
+     border-radius: 30px;
+     position: absolute;
+     left: 35%;
+     bottom: 0px;
+     list-style: none;
+  }
+  .nenzxc{
+     display: none;
+  }
+  .search_txt{
+     width: 200px;
+     box-shadow: 0 0 5px #ddd;
+     border:none;
+     outline:none;
+  }
+.category-menu{
+   position: absolute;
+   left: 30px;
+   font-size: 25px;
+   top:20px;
+   display: block;
+  
+}
+.chi_tiet{
+   width: 414px;
+
+   background-color: rgb(255, 255, 255);
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+margin-right: 10px;
+}
+.tieude{
+   text-align: center;
+   width: 414px;
+   position: relative;
+   cursor: pointer;
+   color: rgb(229, 255, 0);
+   background-color: rgb(0, 0, 0);
+}
+.tieude p{
+   font-size: 16px;
+}
+.xx{
+   padding-left: 0px;
+}
+.xx h1::after {
+   content: "";
+   background-color: rgb(0, 255, 115);
+   width: 70px;
+   height: 8px;
+   position: absolute;
+  bottom: 0px;
+  border-radius: 10px;
+  left: 42%;
+   
+}
+.img_ct{
+   width: 360px;
+   height: 565px;
+   padding-top: 20px;
+   position: relative;
+   left: 40px;
+   background-color: rgb(255, 255, 255);
+}
+
+.bb{
+   position: absolute;
+   right: 100px;
+}
+.canle{
+   font-size: 12px;
+   text-align: justify;
+    text-indent: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 10px;
+}
+.khung{
+   width: 414px;
+}
+.center{
+   width: 414px;
+}
+.khung1{
+   width: 414px;
+}
+.tieude h2::after {
+   content: " ";
+   width: 100px;
+   height: 7px;
+   background-color: rgb(0, 255, 115);
+   border-radius: 30px;
+   position: absolute;
+   bottom: 0px;
+   left: 41%;
+   cursor: pointer;
+}
+.slick-center{
+   width: 170px !important;
+}
+.slick-slide{
+   width: 170px !important;
+}
+.item_cl{
+   width: 150px !important;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   min-height: 180px;
+   background-color: rgb(255, 255, 255);
+   cursor: pointer;
+   position: relative;
+   border-radius: 20px;
+   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+   margin-bottom: 30px;
+   margin-left: 15px;
+   transition: 0.5s; 
+   z-index: 10000;
+   }
+.slick-list{
+   padding: 0px 0px !important;
+}
+.draggable{
+   width: 414px !important;
+}
+[class*='khung'] {
+   padding: 0px 0px;
+}
+.slick-track{
+ width: 100414000px !important;
+
+}
+.slick-cloned{
+   width: 170px !important;
+}
+}
+

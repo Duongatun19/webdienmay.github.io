@@ -1,0 +1,224 @@
+body {
+    position: relative;
+    max-width: 1920px;
+
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+
+  
+  }
+
+.header{
+ 
+
+   width: 1920px;
+   text-align: center;  
+   margin: 0 auto;
+   background-color: blue;
+
+   
+ 
+  
+}
+.logo{
+    float: left;
+    line-height: 130px;
+z-index: 10000000000000000;
+    background-color: rgb(255, 255, 255);
+    width: 70px;
+    height: 60px;
+    border-radius: 100px;
+
+}
+
+.loguot{
+    height: 40px;
+    float:right;
+    text-align: right;
+   margin-top: 5px;
+ 
+    
+    
+}
+
+.sign img{
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.anh
+{
+    
+line-height: 40px;
+    
+}
+.nav_bar
+{
+
+    background-color: rgb(0, 0, 0);
+    height: 130px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    text-align: center;  
+    line-height: 30px;
+    margin: 0 auto;
+ 
+  
+
+  
+}
+.menu{
+    width: 1200px;
+    height: 78px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    bottom: 0px;
+    position: relative;
+}
+.logodm {
+    position: absolute;
+    left: 0px;
+ 
+    width: 300px;
+    height: 100px;
+ 
+}
+.khoangcach {
+    position: absolute;
+    left: 15%;
+}
+
+
+.sign{
+    width: 1200px;
+    height: 35px;
+    background-color: rgb(0, 0, 0);
+    left: 0%;
+    top: 0px;
+   margin: 0 auto;
+    text-align: left;
+  
+  
+}
+.sign button
+{
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+hr{
+    size: 0.1px;
+}
+
+.tk{
+    position: absolute;
+    right: 0px;
+    float: right;
+    top: 19px;
+    
+}
+
+
+.category-menu{
+    position: absolute;
+}
+.search_txt{
+position: absolute;
+width: 0px;
+-webkit-transition: width 2s; /* Safari */
+transition: width 1.5s;
+height: 35px;
+border: none;
+text-align: center; 
+color: rgb(0, 0, 0);
+background-color: rgb(0, 0, 0);
+
+
+}
+.category-menu{
+    position: absolute;
+    display: none;
+}
+.search_txt :hover>.timkiem{
+    border: 1px bisque solid;
+}
+.tk:hover >.search_txt{
+  width: 300px;
+  border: 1px bisque solid;
+ 
+   
+}
+.tk:hover>.timkiem{
+    border: 1px bisque solid;
+  
+}
+.tk input:focus{
+    background-color: #080808;
+}
+.tk .timkiem{
+    width: 43px;
+    height: 35px;
+    position: absolute;
+right: 0px;
+  
+  
+  
+
+}
+
+
+.tk button{
+    background-image: url("../images/haha.JPG");
+}
+
+.giohang{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 100px;
+top:6px;
+   
+    
+}
+.giohang img{
+    width: 45px;
+    height: 35px;
+    position: absolute;
+    z-index: 10;
+    top:13px;
+    
+
+
+}
+  
+ 
+
+.giohang .cart_count {
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    z-index: 999999;
+    height: 25px;
+width: 25px;
+    right: 0px;
+    top: 0px;
+    border-radius: 40px;
+    font-weight: bold;
+   
+  
+}
+.cart_count a{
+    position: absolute;
+    top:0px;
+}
+
+    

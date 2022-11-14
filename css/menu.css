@@ -1,0 +1,147 @@
+
+#mainmenu
+{
+    display: flex;
+    list-style: none;
+margin-top: -2px;
+    padding: 0px;
+
+    width: 810px;
+
+  
+   
+}
+#mainmenu >li>a
+{
+    position: relative;
+}
+/* thẻ a đầu tiên của mainmenu */
+#mainmenu >li:hover>a 
+{
+    background-color:rgb(30, 30, 30)
+  
+}
+#mainmenu li{
+    position: relative;
+}
+#mainmenu li a
+{  
+
+    display: block;
+    color: lightcyan;
+    text-decoration: none;
+    padding: 25px;
+   
+ 
+
+}
+#mainmenu ul.sub-mainmenu
+{
+    position: absolute;
+    padding: 0px 0px;
+    list-style: none;
+    width: 210px;
+    background-color:rgb(0, 0, 0);
+
+    border-bottom-left-radius:7px;
+    display: none;
+    box-shadow: 0 0 1px rgb(235, 233, 233);
+   
+   
+}
+#mainmenu ul.sub-mainmenu a
+{
+    padding: 8px 15px;
+
+    left: 0px;
+   
+    
+   
+}
+#mainmenu ul.sub-mainmenu li> a
+{
+ 
+    width: 130px;
+    -webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s;
+}
+
+#mainmenu ul.sub-mainmenu li:hover >a /* khi chỉ chuột vào menu */
+{
+  
+   background-color: rgb(30, 30, 30);
+
+   width: 210px;
+   text-align: center;
+
+  
+  
+
+   
+}
+#mainmenu ul.sub-mainmenu li >a::before /* vạch dưới menu đa cấp*/
+{content: "";
+    height: 2px;
+    width: 0px;
+    background-color:bisque;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s;
+    
+
+}
+#mainmenu ul.sub-mainmenu li:hover >a::before
+{
+    
+ width: 100%;
+   
+    display: block;
+ 
+}
+
+#mainmenu ul.sub-mainmenu li:last-child a
+{
+    border: none; 
+}
+/*menu c3*/
+#mainmenu ul.sub-mainmenu ul.sub-mainmenu /*truy cập menu c3 của menu c2*/
+{
+left: 200px;
+top:-15px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+
+
+
+}
+#mainmenu li:hover >.sub-mainmenu /*khi hover chuột vào li của sub-mainmenu sẽ hiển thị menu đa cấp*/
+{
+display: block;
+}
+/*thiết lập border khi hover*/
+
+#mainmenu >li>a::before
+{
+content: "";
+height: 4px;
+width: 0px;
+background-color:bisque;
+position: absolute;
+bottom: 0px;
+left: 0px;
+transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#mainmenu >li:hover>a::before
+{
+    width: 100%;
+    display: block;
+ 
+}
+
+
+
+    
+   
+

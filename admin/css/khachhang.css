@@ -1,0 +1,24 @@
+.top{
+    background-color: black;
+    color:burlywood;
+    width: 100%;
+    height: 70px;
+    font-size: 30px;
+    line-height: 70px;
+    padding-left: 30px;
+    z-index: 9999999999;
+    position: sticky !important;
+
+    top:97px;
+}
+
+table ,th ,tr ,td{
+    border: 1px solid black;
+    text-align: center;
+
+}
+.conttent{
+    padding-left: 20px;
+    padding-top: 30px;
+  
+}
