@@ -166,3 +166,27 @@ bottom: -35px;
 .ctop{
     padding-top: 155px;
 }
+@media  screen and (max-width:490px) {
+    .giohangrepon{
+        font-size: 10px !important;
+    }
+    .giohangrepon img{
+        height: 70px !important;
+        width: 50px !important;
+        object-fit: cover !important;
+    }
+    .repon-h1{
+        font-size: 20px !important;
+    }
+    .boloc h1::after {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        left: 40%;
+        width: 95px;
+        height: 6px;
+        border-radius: 30px;
+        background-color: red;
+    }
+
+}

@@ -375,4 +375,21 @@ margin-right: 10px;
    width: 170px !important;
 }
 }
+@media  screen and (max-width:490px) {
+   .img_ct {
+      width: 360px;
+      height: 405px;
+      padding-top: 20px;
+      position: relative;
+      left: 40px;
+      background-color: rgb(255, 255, 255);
+  }
+  .hinhanh img {
+   height: 185px;
+   width: 185px;
+   object-fit: cover !important;
+}
+  
+  
+}
 

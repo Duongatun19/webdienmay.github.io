@@ -1,6 +1,6 @@
 body {
     position: relative;
-    max-width: 1920px;
+   
 
     margin: 0 auto;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -10,13 +10,17 @@ body {
     color: #212529;
     text-align: left;
 
-  
-  }
+} 
+
+.over{
+     overflow-x: hidden;
+}
+
 
 .header{
- 
+  
 
-   width: 1920px;
+   width: 100%;
    text-align: center;  
    margin: 0 auto;
    background-color: blue;
@@ -69,10 +73,7 @@ line-height: 40px;
     text-align: center;  
     line-height: 30px;
     margin: 0 auto;
- 
-  
-
-  
+    width:100%;
 }
 .menu{
     width: 1200px;

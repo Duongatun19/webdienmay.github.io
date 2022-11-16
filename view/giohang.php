@@ -9,12 +9,12 @@
             <div class="row ">
        </style>
      <div class="box_title boloc" style="background-color: white;">
-     <h1><p>GIỎ HÀNG</p></h1>
+     <h1><p class="repon-h1">GIỎ HÀNG</p></h1>
      </div>   
      <div class="cacsanpham " style="background-color: white;">
  <br>
  <br>
- <div class="row" style="background-color: white;">
+ <div class="row giohangrepon" style="background-color: white;">
  <table  cellpadding="5" cellspacing="0" width="100%" >
     <tr>
         <th width=150px>Hình</th>

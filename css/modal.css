@@ -254,7 +254,29 @@ input:hover{
 
 }
 input{
-
+    border:none;
+    outline:none;
     background-color: rgb(230, 213, 204);
+}
+@media  screen and (max-width:700px) {
+.modal_dang_ki {
+    height: 420px;
+    border: solid 2px white;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    float: left;
+    padding-top: 50px;
+    margin-top: 90px;
+    left: 10px !important;
+    position: fixed;
+    z-index: 9999;
+    box-shadow: 0px 0px 10px #000000;
+    overflow: hidden;
+    left: 41%;
+    cursor: pointer;
+    display: none;
+    user-select: none;
+}
 }
 

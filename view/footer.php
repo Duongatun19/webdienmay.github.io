@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="./css/reposive.css">
 <div class="hr"></div>
 <div class="bottom">
-
+<div class="container">
 <div class="layuot_tt">
 <div class="item_tt">
 <div class="icon">
@@ -47,6 +47,6 @@
 
 </div>
 </div>
-
+</div>
 </body>
 </html>
