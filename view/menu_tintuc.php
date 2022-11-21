@@ -9,6 +9,7 @@
         foreach($danhmucbaiviet as $dmbv){
             extract($dmbv);
             $linkdmbv="index.php?act=danhmucbv&iddmbv=".$id;
+          
         echo '      <li><a href="'.$linkdmbv.'">'.$dmbaiviet.'</a></li>';
         }
               ?>  
